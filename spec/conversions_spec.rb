@@ -6,7 +6,7 @@ describe "conversions" do
       grams = ounces_to_grams(0)
       expect(grams).to eq(0.0)
     end
-    it 'converts ounces to grams correctly'
+    it 'converts ounces to grams correctly' do
     grams = ounces_to_grams(1)
     expect(grams).to eq(28.3495)
     end
